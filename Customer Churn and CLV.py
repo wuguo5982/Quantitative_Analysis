@@ -1,4 +1,4 @@
-# Objective: Analyze customer churn patterns predict customer lifetime values (CLV model),
+# Objective: Analyze customer churn patterns, predict customer lifetime values (CLV model),
 # and develop strategies to reduce churn in a health insurance company's customer base.
 # Data source: health insurance
 
