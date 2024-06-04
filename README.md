@@ -1,9 +1,10 @@
 ## Quantitative Analysis
 
-1. Proficient in **anomaly and fraud detection** (financial business) using various ML, DL, NLP/LLMs, and statistical regression models. <br>
-   (a). Unsupervised models (k-means, Isolation Forest, DBSCAN). <br>
-   (b). Supervised models (tree-based models, deep learning). <br>
+1. Proficient in **anomaly and fraud detection** (financial business) using various ML, DL, NLP/LLMs, and statistical models. <br>
+   (a). Unsupervised models (k-means, Isolation Forest, DBSCAN, etc.). <br>
+   (b). Supervised models (tree-based models, deep learning, etc.). <br>
    (c). Multivariate regression models. <br>
+   (d). NLP/LLMs models. <br>
 - For more knowledge and skills on fraud detection, please feel free to inquire. <br>
 2. Application of ML/AI in fraud detection for credit cards. <br>
 3. Application of ML/AI in market segmentation (or customer segmentation). <br>
