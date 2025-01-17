@@ -1,6 +1,6 @@
 ## Quantitative Analysis
 
-1. Proficient in **anomaly and fraud detection** (financial business) using various ML, DL, NLP/LLMs, and statistical models. <br>
+1. Hands-on experience in **anomaly and fraud detection** (financial business) using various ML, DL, NLP/LLMs, and statistical models. <br>
    (a). Unsupervised models (k-means, Isolation Forest, DBSCAN, etc.). <br>
    (b). Supervised models (tree-based models, deep learning, etc.). <br>
    (c). Multivariate regression models. <br>
