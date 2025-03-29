@@ -23,7 +23,7 @@ This section showcases hands-on experience in applying machine learning, deep le
 
 ---
 
-### 🤖 Techniques & Models Applied
+### 🚀 Techniques & Models Applied
 Detailed information is available upon private request.
 
 - **Unsupervised Learning**  
