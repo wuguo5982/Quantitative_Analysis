@@ -22,7 +22,7 @@ This section highlights hands-on experience in applying machine learning, deep l
 ---
 
 ## 🚀 Techniques & Models Applied  
-*📌 Note: Detailed implementation information is available upon request.*
+*📌 Note: Detailed projects information is available upon request.*
 
 #### ✅  Unsupervised Learning 
 - K-Means Clustering  
