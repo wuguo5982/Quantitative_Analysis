@@ -41,8 +41,7 @@ This section highlights practical experience in applying machine learning, deep 
 - Multivariate Regression for trend and impact analysis  
 - Time-based risk models and scoring systems  
 
-#### 🔹 Natural Language Processing (NLP) & LLMs  
-*(Refer to the [NLP & LLMs](#) section for more details)*  
+#### 🔹 Natural Language Processing (NLP) & LLMs (see NLP & LLMs section)  
 - Fraud pattern recognition from unstructured text  
 - Contract and claims analysis using LLMs  
 - Retrieval-Augmented Generation (RAG) for semantic search and document comprehension
