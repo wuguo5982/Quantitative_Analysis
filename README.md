@@ -1,4 +1,4 @@
-## 📉 Quantitative Analysis in Fraud Detection & Customer Intelligence
+# 📉 Machine learning for Fraud Detection
 
 This section highlights practical experience in applying machine learning, deep learning, NLP/LLMs, and statistical techniques to address real-world business challenges—particularly within the financial services domain.
 
@@ -13,7 +13,7 @@ This section highlights practical experience in applying machine learning, deep 
   Credit default prediction using statistical and machine learning techniques.
 
 - **Market & Customer Segmentation**  
-  Identifying customer segments to support targeted marketing, personalized services, and strategic product development.
+  Clustering customer segments to support targeted marketing, personalized services, and strategic product development.
 
 - **Customer Churn Prediction and  Customer Lifetime Value (CLV) Estimation**
   - Forecasting attrition risk to optimize retention strategies and reduce customer loss.
@@ -22,9 +22,9 @@ This section highlights practical experience in applying machine learning, deep 
 ---
 
 ### 🚀 Techniques & Models Applied  
-*Detailed implementation information is available upon request.*
+*📌 Note: Detailed implementation information is available upon request.*
 
-#### ✅  Unsupervised Learning
+#### ✅  Unsupervised Learning 
 - K-Means Clustering  
 - Hierarchical Clustering  
 - Isolation Forest  
@@ -39,9 +39,11 @@ This section highlights practical experience in applying machine learning, deep 
 - Multivariate Regression for trend and impact analysis  
 - Predictive Interval 
 
-#### ✅  Natural Language Processing (NLP) & LLMs (see NLP & LLMs section)  
+#### ✅  Natural Language Processing (NLP) & LLMs  
 - Fraud pattern recognition from unstructured text  
 - Contract and claims analysis using LLMs  
 - Retrieval-Augmented Generation (RAG) for semantic search and document comprehension
 
+#### ✅  Rule-Based Systems
+- Integration of business rules and domain-specific logic for fraud flagging  
 ---
