@@ -9,17 +9,15 @@ This section highlights practical experience in applying machine learning, deep 
 - **Anomaly & Fraud Detection**  
   Detection of abnormal patterns and fraudulent activity in financial loans and transactions using intelligent ML/AI models.
 
-- **Credit Risk Evaluation**  
+- **Credit Risk Prediction**  
   Credit default prediction using statistical and machine learning techniques.
 
 - **Market & Customer Segmentation**  
   Identifying customer segments to support targeted marketing, personalized services, and strategic product development.
 
-- **Customer Churn Prediction**  
-  Forecasting attrition risk to optimize retention strategies and reduce customer loss.
-
-- **Customer Lifetime Value (CLV) Estimation**  
-  Predicting long-term customer value to drive investment and acquisition strategies.
+- **Customer Churn Prediction and  Customer Lifetime Value (CLV) Estimation**
+  - Forecasting attrition risk to optimize retention strategies and reduce customer loss.
+  - Predicting long-term customer value to drive investment and acquisition strategies.
 
 ---
 
