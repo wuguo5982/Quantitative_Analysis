@@ -18,19 +18,20 @@ This section showcases hands-on experience in applying machine learning, deep le
 - **Customer Lifetime Value (CLV) Estimation**  
   Predicting long-term value of customers to drive revenue-based decisions.
 
-- **Risk Evaluation**  
+- **Credit Risk Evaluation**  
   Applying statistical models for basic financial risk assessment and scoring.
 
 ---
 
 ### 🤖 Techniques & Models Applied
-For detailed, access upon request via the private repository:
+Detailed information is available upon private request.
 
 - **Unsupervised Learning**  
-  - K-Means Clustering  
+  - K-Means Clustering
+  - Hierarchical Clustering  
   - Isolation Forest  
   - DBSCAN  
-  - Autoencoders for anomaly detection  
+  - Autoencoders for anomaly detection
 
 - **Supervised Learning**  
   - Tree-based models (Random Forest, XGBoost)  
