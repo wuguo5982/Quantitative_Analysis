@@ -1,12 +1,46 @@
-## Quantitative Analysis
+## 📉 Quantitative Analysis in Fraud Detection & Customer Intelligence
 
-1. Hands-on experience in **anomaly and fraud detection** (financial business) using various ML, DL, NLP/LLMs, and statistical models. <br>
-   (a). Unsupervised models (k-means, Isolation Forest, DBSCAN, etc.). <br>
-   (b). Supervised models (tree-based models, deep learning, etc.). <br>
-   (c). Multivariate regression models. <br>
-   (d). NLP/LLMs models. <br>
-- For more knowledge and skills on fraud detection, please feel free to inquire. <br>
-2. Application of ML/AI in fraud detection for credit cards. <br>
-3. Application of ML/AI in market segmentation (or customer segmentation). <br>
-4. Analysis of customer churn and prediction of Customer Lifetime Value (CLV). <br>
-5. Basic knowledge of risk evaluation.
+This section showcases hands-on experience in applying machine learning, deep learning, NLP/LLMs, and statistical methods to real-world business challenges, particularly in the financial sector.
+
+---
+
+### 🔍 Core Focus Areas
+
+- **Anomaly and Fraud Detection**  
+  Leveraging ML and AI for detecting unusual patterns and fraudulent behavior in financial transactions.
+
+- **Market and Customer Segmentation**  
+  Identifying distinct customer groups to enable personalized marketing strategies and product targeting.
+
+- **Customer Churn Prediction**  
+  Forecasting attrition to improve retention strategies.
+
+- **Customer Lifetime Value (CLV) Estimation**  
+  Predicting long-term value of customers to drive revenue-based decisions.
+
+- **Risk Evaluation**  
+  Applying statistical models for basic financial risk assessment and scoring.
+
+---
+
+### 🤖 Techniques & Models Applied
+
+- **Unsupervised Learning**  
+  - K-Means Clustering  
+  - Isolation Forest  
+  - DBSCAN  
+  - Autoencoders for anomaly detection  
+
+- **Supervised Learning**  
+  - Tree-based models (Random Forest, XGBoost)  
+  - Deep learning architectures for classification and prediction  
+
+- **Statistical Modeling**  
+  - Multivariate regression models for trend and impact analysis  
+
+- **Natural Language Processing (NLP) & LLMs**  
+  - Text-based fraud pattern extraction  
+  - Language models for contract or claim analysis  
+  - Retrieval-Augmented Generation (RAG) for document understanding  
+
+---
