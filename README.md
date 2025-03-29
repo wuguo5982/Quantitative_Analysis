@@ -24,6 +24,7 @@ This section showcases hands-on experience in applying machine learning, deep le
 ---
 
 ### 🤖 Techniques & Models Applied
+For detailed, access upon request via the private repository:
 
 - **Unsupervised Learning**  
   - K-Means Clustering  
@@ -38,7 +39,7 @@ This section showcases hands-on experience in applying machine learning, deep le
 - **Statistical Modeling**  
   - Multivariate regression models for trend and impact analysis  
 
-- **Natural Language Processing (NLP) & LLMs**  
+- **Natural Language Processing (NLP) & LLMs**  (see NLP & LLMs section)
   - Text-based fraud pattern extraction  
   - Language models for contract or claim analysis  
   - Retrieval-Augmented Generation (RAG) for document understanding  
