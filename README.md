@@ -1,6 +1,6 @@
 # 📉 Machine learning for Fraud Detection
 
-This section highlights practical experience in applying machine learning, deep learning, NLP/LLMs, and statistical techniques to address real-world business challenges—particularly within the financial services domain.
+This section highlights hands-on experience in applying machine learning, deep learning, NLP/LLMs, and statistical techniques to address real-world business challenges—particularly within the financial services domain.
 
 ---
 
@@ -21,7 +21,7 @@ This section highlights practical experience in applying machine learning, deep 
 
 ---
 
-### 🚀 Techniques & Models Applied  
+## 🚀 Techniques & Models Applied  
 *📌 Note: Detailed implementation information is available upon request.*
 
 #### ✅  Unsupervised Learning 
