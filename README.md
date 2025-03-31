@@ -1,4 +1,4 @@
-# 📉 Machine learning for Fraud Detection
+# 📉 Anomaly & Fraud Detection with Machine Learning - Project Portfolie
 
 This section highlights hands-on experience in applying machine learning, deep learning, NLP/LLMs, and statistical techniques to address real-world business challenges—particularly within the financial services domain.
 
