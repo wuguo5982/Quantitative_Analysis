@@ -29,11 +29,14 @@ This section highlights hands-on experience in applying machine learning, deep l
 - Hierarchical Clustering  
 - Isolation Forest  
 - DBSCAN  
-- Autoencoders for Anomaly Detection
 
 #### ✅  Supervised Learning
 - Tree-Based Models (Random Forest, XGBoost)  
 - Deep Neural Networks for classification and sequence modeling  
+
+#### ✅  Deep Learning
+- MLP (Multilayer Perceptrons) for structured data modeling
+- Autoencoders (encoder and decoder) for Anomaly Detection
 
 #### ✅  Statistical Modeling
 - Multivariate Regression for trend and impact analysis  
