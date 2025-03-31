@@ -1,4 +1,4 @@
-# 📉 Fraud Detection with Machine Learning - Project Portfolio
+# 📉 📊 Applied Machine Learning in Financial Fraud Detection & Risk Analytics
 
 This section highlights hands-on experience in applying machine learning, deep learning, NLP/LLMs, and statistical techniques to address real-world business challenges—particularly within the financial services domain.
 
@@ -39,10 +39,11 @@ This section highlights hands-on experience in applying machine learning, deep l
 - Multivariate Regression for trend and impact analysis  
 - Predictive Interval 
 
-#### ✅  Natural Language Processing (NLP) & LLMs  
+#### ✅  Natural Language Prodess (NLP) & Large Language Models (LLMs)  
 - Fraud pattern recognition from unstructured text  
-- Contract and claims analysis using LLMs  
-- Retrieval-Augmented Generation (RAG) for semantic search and document comprehension
+- Texutal analysis using transformer-based LLMs
+- Fuzzy matching for anomaly and duplication detection
+- Retrieval-Augmented Generation (RAG) for semantic search and document understanding
 
 #### ✅  Rule-Based Systems
 - Integration of business rules and domain-specific logic for fraud flagging  
