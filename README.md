@@ -1,4 +1,4 @@
-# 📉 📊 Applied Machine Learning in Financial Fraud Detection & Risk Analytics
+# 📊 Applied Machine Learning in Financial Fraud Detection & Risk Analytics
 
 This section highlights hands-on experience in applying machine learning, deep learning, NLP/LLMs, and statistical techniques to address real-world business challenges—particularly within the financial services domain.
 
