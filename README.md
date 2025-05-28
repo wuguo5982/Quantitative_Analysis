@@ -4,7 +4,7 @@ This section highlights hands-on experience in applying machine learning, deep l
 
 ---
 
-###  Core Focus Areas
+##  1. Core Focus Areas
 
 - **Anomaly & Fraud Detection**  
   Detection of abnormal patterns and fraudulent activity in financial loans and transactions using intelligent ML/AI models.
@@ -21,33 +21,33 @@ This section highlights hands-on experience in applying machine learning, deep l
 
 ---
 
-##  Techniques & Models Applied  
+##  2. Techniques & Models Applied  
 * Note: Detailed projects information is available upon request.*
 
-####   Unsupervised Learning 
+#### (1).  Unsupervised Learning 
 - K-Means Clustering  
 - Hierarchical Clustering  
 - Isolation Forest  
 - DBSCAN  
 
-####   Supervised Learning
+####  (2). Supervised Learning
 - Tree-Based Models (Random Forest, XGBoost)  
 - Deep Neural Networks for classification and sequence modeling  
 
-####   Deep Learning
+####  (3). Deep Learning
 - MLP (Multilayer Perceptrons) for structured data modeling
 - Autoencoders (encoder and decoder) for Anomaly Detection
 
-####   Statistical Modeling
+####  (4). Statistical Modeling
 - Multivariate Regression for trend and impact analysis  
 - Predictive Interval 
 
-####   Natural Language Prodess (NLP) & Large Language Models (LLMs)  
+####  (5). Natural Language Prodess (NLP) & Large Language Models (LLMs)  
 - Fraud pattern recognition from unstructured text  
 - Texutal analysis using transformer-based LLMs
 - Fuzzy matching for anomaly and duplication detection
 - Retrieval-Augmented Generation (RAG) for semantic search and document understanding
 
-####   Rule-Based Systems
+####  6). Rule-Based Systems
 - Integration of business rules and domain-specific logic for fraud flagging  
 ---
