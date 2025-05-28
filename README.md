@@ -1,10 +1,10 @@
-# 📊 Applied Machine Learning in Financial Fraud Detection & Risk Analytics
+#  Applied Machine Learning in Financial Fraud Detection & Risk Analytics
 
 This section highlights hands-on experience in applying machine learning, deep learning, NLP/LLMs, and statistical techniques to address real-world business challenges—particularly within the financial services domain.
 
 ---
 
-### 🔍 Core Focus Areas
+###  Core Focus Areas
 
 - **Anomaly & Fraud Detection**  
   Detection of abnormal patterns and fraudulent activity in financial loans and transactions using intelligent ML/AI models.
@@ -21,33 +21,33 @@ This section highlights hands-on experience in applying machine learning, deep l
 
 ---
 
-## 🚀 Techniques & Models Applied  
-*📌 Note: Detailed projects information is available upon request.*
+##  Techniques & Models Applied  
+* Note: Detailed projects information is available upon request.*
 
-#### ✅  Unsupervised Learning 
+####   Unsupervised Learning 
 - K-Means Clustering  
 - Hierarchical Clustering  
 - Isolation Forest  
 - DBSCAN  
 
-#### ✅  Supervised Learning
+####   Supervised Learning
 - Tree-Based Models (Random Forest, XGBoost)  
 - Deep Neural Networks for classification and sequence modeling  
 
-#### ✅  Deep Learning
+####   Deep Learning
 - MLP (Multilayer Perceptrons) for structured data modeling
 - Autoencoders (encoder and decoder) for Anomaly Detection
 
-#### ✅  Statistical Modeling
+####   Statistical Modeling
 - Multivariate Regression for trend and impact analysis  
 - Predictive Interval 
 
-#### ✅  Natural Language Prodess (NLP) & Large Language Models (LLMs)  
+####   Natural Language Prodess (NLP) & Large Language Models (LLMs)  
 - Fraud pattern recognition from unstructured text  
 - Texutal analysis using transformer-based LLMs
 - Fuzzy matching for anomaly and duplication detection
 - Retrieval-Augmented Generation (RAG) for semantic search and document understanding
 
-#### ✅  Rule-Based Systems
+####   Rule-Based Systems
 - Integration of business rules and domain-specific logic for fraud flagging  
 ---
