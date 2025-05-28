@@ -48,6 +48,6 @@ This section highlights hands-on experience in applying machine learning, deep l
 - Fuzzy matching for anomaly and duplication detection
 - Retrieval-Augmented Generation (RAG) for semantic search and document understanding
 
-####  6). Rule-Based Systems
+####  (6). Rule-Based Systems
 - Integration of business rules and domain-specific logic for fraud flagging  
 ---
