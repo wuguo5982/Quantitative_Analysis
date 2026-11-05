@@ -1,0 +1,146 @@
+find_trending_companies:
+  description: >
+    Find the top trending companies in the news in {sector} as of {current_date} by searching the latest news. Find new companies that you've not found before.
+  expected_output: >
+    A list of trending companies in {sector}
+  agent: trending_company_finder
+  output_file: output/trending_companies.json
+
+research_trending_companies:
+  description: >
+    Given a list of trending companies, provide detailed analysis of each company in a report by searching online. Ensure research is up to date as of {current_date}.
+  expected_output: >
+    A report containing detailed analysis of each company
+  agent: financial_researcher
+  context:
+    - find_trending_companies
+  output_file: output/research_report.json
+
+pick_best_company:
+  description: >
+    Analyze the research findings and pick the best company for investment. Ensure research is up to date as of {current_date}.
+    Send a push notification to the user with the decision and 1 sentence rationale.
+    Then respond with a detailed report on why you chose this company, and which companies were not selected.
+  expected_output: >
+    The chosen company and why it was chosen; the companies that were not selected and why they were not selected.
+  agent: stock_picker
+  context:
+    - research_trending_companies
+  output_file: output/decision.md
+screen_universe:
+  description: >
+    Screen a broad universe of US listed companies in {sector} for at least 50 unique eligible tickers. Include Mag7, semiconductor, AI infrastructure, healthcare and consumer names where sector scope permits. Use a transparent universe and disclose any shortfall. Do not assert current prices without dated sources.
+  expected_output: >
+    A documented universe of up to 50+ eligible tickers with inclusion rules and sources.
+  agent: ranking_analyst
+  context:
+    - find_trending_companies
+  output_file: output/screen_universe.md
+
+analyze_fundamentals:
+  description: >
+    Analyze the screened universe with primary SEC/IR financial statements; compute FCF=operating cash flow-capex, revenue growth, margins, debt and earnings quality; record reporting periods and missing values.
+  expected_output: >
+    Fundamental evidence and risk register per ticker, including URLs, periods and calculations.
+  agent: fundamental_analyst
+  context:
+    - screen_universe
+  output_file: output/analyze_fundamentals.md
+
+analyze_valuation:
+  description: >
+    Value screened firms with as-of-date market data, comparable multiples and scenarios; never combine inconsistent timestamps or claim precision unsupported by evidence.
+  expected_output: >
+    Valuation table with source dates, assumptions, scenario ranges and uncertainty.
+  agent: valuation_analyst
+  context:
+    - screen_universe
+    - analyze_fundamentals
+  output_file: output/analyze_valuation.md
+
+analyze_institutional:
+  description: >
+    Evaluate GS/JPM prime brokerage publications if accessible, explicitly stating sample and observation window; evaluate distribution and accumulation proxy signals and avoid claiming verified institutional net buying/selling from volume alone.
+  expected_output: >
+    Two-sided institutional evidence table, independent sources and unknowns.
+  agent: institutional_flow_analyst
+  context:
+    - screen_universe
+  output_file: output/analyze_institutional.md
+
+analyze_microstructure:
+  description: >
+    Assess verifiable FINRA ATS/TRF, options skew, put/call, IV, volume/OI and ETF flow signals. Note reporting lags; GEX and gamma flip are estimates, not observed dealer positions.
+  expected_output: >
+    Microstructure table separating observed, modeled and unavailable evidence.
+  agent: options_microstructure_analyst
+  context:
+    - screen_universe
+  output_file: output/analyze_microstructure.md
+
+analyze_technicals:
+  description: >
+    Assess completed weekly MACD/RSI divergences, 5/10/20-week EMA, daily distribution/accumulation, relative strength vs SPY/QQQ/SOXX and breadth. Label provisional bars.
+  expected_output: >
+    Technical signal evidence with indicator definitions, bar dates and independent confirmation.
+  agent: price_technical_analyst
+  context:
+    - screen_universe
+  output_file: output/analyze_technicals.md
+
+analyze_catalysts:
+  description: >
+    Verify company/sector catalysts, earnings, EPS revisions, FCF/capex, orders, AI GPU/TPU competition, financing, regulatory and credit developments. Separate official statements, reputable reports, plans and rumors; log first public and verified ET.
+  expected_output: >
+    Dated catalyst ledger, HIGH/CRITICAL candidates and invalidation triggers.
+  agent: catalyst_news_analyst
+  context:
+    - screen_universe
+  output_file: output/analyze_catalysts.md
+
+analyze_consensus:
+  description: >
+    For every covered stock seek dated Buy/Hold/Sell counts, rating and 12-month target from a single named provider per row. Combine Strong Buy+Buy only within that provider; do not manufacture missing counts.
+  expected_output: >
+    Provider-consistent analyst table with counts, target, as-of date and unavailable fields.
+  agent: analyst_consensus_analyst
+  context:
+    - screen_universe
+  output_file: output/analyze_consensus.md
+
+audit_evidence:
+  description: >
+    Independently review all prior outputs for cited accessible sources, timestamp alignment, calculation errors, double-counted correlated signals, unsupported institutional attribution and hallucinated ratings. Mark each claim VERIFIED, ESTIMATED, UNVERIFIED or REJECTED. Do not silently fill missing values.
+  expected_output: >
+    Audit verdict per material claim, coverage statistics, rejection reasons and required corrections.
+  agent: evidence_auditor
+  context:
+    - analyze_fundamentals
+    - analyze_valuation
+    - analyze_institutional
+    - analyze_microstructure
+    - analyze_technicals
+    - analyze_catalysts
+    - analyze_consensus
+  output_file: output/audit_evidence.md
+
+rank_top50:
+  description: >
+    Rank up to 50 eligible distinct stocks with transparent fixed weights: fundamentals 25, valuation 20, catalysts 15, technical 10, institutional evidence 10, downside risk 15, analyst consensus 5. Score 0-100 only when verified evidence supports components; show missingness, confidence and conditional rank. Do not claim backtested performance.
+  expected_output: >
+    Sorted top-50 scoring table with component weights, evidence quality, data gaps and ties.
+  agent: ranking_analyst
+  context:
+    - audit_evidence
+  output_file: output/rank_top50.md
+
+judge_top5:
+  description: >
+    Review audited top-50 list adversarially and choose up to five strongest evidence-backed candidates. Discuss bear/base/bull scenarios, major invalidation triggers, correlated exposures, data deficiencies and reasons for exclusions. If evidence is insufficient, withhold selections rather than invent them.
+  expected_output: >
+    Independent top-five investment committee memo with traceable ranking and uncertainty.
+  agent: final_judge
+  context:
+    - rank_top50
+    - audit_evidence
+  output_file: output/judge_top5.md
